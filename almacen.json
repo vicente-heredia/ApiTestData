@@ -1,0 +1,184 @@
+{
+  "Asignatura": [
+    {
+      "nombre": "Ética",
+      "descripcion": "Estudio de los principios morales y la conducta humana.",
+      "profesor": "Diego Varas",
+      "id": "f03e"
+    },
+    {
+      "nombre": "Java",
+      "descripcion": "Introducción a la programación en Java y desarrollo de aplicaciones.",
+      "profesor": "Mariangeles Robinson",
+      "id": "a268"
+    },
+    {
+      "nombre": "Base de Datos",
+      "descripcion": "Diseño y gestión de bases de datos utilizando SQL.",
+      "profesor": "Alex Aguilera",
+      "id": "75fc"
+    },
+    {
+      "nombre": "Inglés II",
+      "descripcion": "Profundización en la gramática y el vocabulario del inglés.",
+      "profesor": "Roberto Becerra",
+      "id": "3904"
+    },
+    {
+      "nombre": "Apps Móviles",
+      "descripcion": "Desarrollo de aplicaciones móviles para diferentes plataformas.",
+      "profesor": "Viviana Poblete",
+      "id": "d657"
+    },
+    {
+      "nombre": "Estadística",
+      "descripcion": "Análisis de datos y sus aplicaciones en diversas áreas.",
+      "profesor": "Carla Cáceres",
+      "id": "c1cb"
+    },
+    {
+      "nombre": "Arquitectura de Software",
+      "descripcion": "Diseño y estructura de sistemas de software escalables y mantenibles.",
+      "profesor": "Julián Corvalán",
+      "id": "1r3b"
+    },
+    {
+      "nombre": "Calidad de Software",
+      "descripcion": "Principios y prácticas para asegurar la calidad en el desarrollo de software.",
+      "profesor": "Daniel Montero",
+      "id": "c0cb"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "username": "usuario1",
+      "photoUrl": "",
+      "password": "duoc1234",
+      "rut": "87654321-0",
+      "email": "usuario1@mail.cl",
+      "isactive": true,
+      "elecciones": []
+    },
+    {
+      "id": "2",
+      "username": "docente2",
+      "photoUrl": "",
+      "nombre": "Mariangeles",
+      "apellido": "Robinsons",
+      "password": "docente1234",
+      "rut": "87654321-1",
+      "email": "docente2@mail.cl",
+      "isactive": true,
+      "asignaturas": [
+        "Java"
+      ]
+    },
+    {
+      "id": "1",
+      "username": "Vicente1234",
+      "photoUrl": "",
+      "nombre": "vicente",
+      "rut": "21775297-3",
+      "apellido": "Bustos",
+      "email": "vi.bustosa@duocuc.cl",
+      "password": "duoc12345",
+      "isactive": true,
+      "elecciones": []
+    },
+    {
+      "id": "4",
+      "username": "tomano21",
+      "photoUrl": "",
+      "nombre": "topoyo",
+      "rut": "21345678-7",
+      "apellido": "paz",
+      "email": "topoyo@mail.com",
+      "password": "duoc12345",
+      "isactive": true,
+      "elecciones": []
+    },
+    {
+      "id": "1",
+      "username": "manuelaa21",
+      "photoUrl": "",
+      "nombre": "Manuela",
+      "rut": "21775298-0",
+      "apellido": "Palma",
+      "email": "manolete@gmail.com",
+      "password": "duoc12345",
+      "isactive": true
+    }
+  ],
+  "Justificacion": [
+    {
+      "id": "a8e9",
+      "fecha": "2024-10-23",
+      "motivo": "aaaaaaaaaaaaa",
+      "asignatura": "Base de Datos",
+      "profesor": "Alex Aguilera",
+      "usuario": "tomano21",
+      "comentario": "HOLA"
+    },
+    {
+      "id": "9633",
+      "fecha": "2024-10-23",
+      "motivo": "wwwwwwwwwwwwww",
+      "asignatura": "Base de Datos",
+      "profesor": "Alex Aguilera",
+      "usuario": "tomano21"
+    }
+  ],
+  "usuariosDoc": [
+    {
+      "id": "1",
+      "username": "Prueba1",
+      "photoUrl": "",
+      "nombre": "Diego",
+      "apellido": "Varas1",
+      "password": "docente1234",
+      "rut": "12345678-9",
+      "email": "profesor1@mail.cl",
+      "isactive": true,
+      "asignaturas": [
+        "Ética"
+      ]
+    },
+    {
+      "id": "2",
+      "username": "docente2",
+      "photoUrl": "",
+      "nombre": "Mariangeles",
+      "apellido": "Robinson",
+      "password": "docente1234",
+      "rut": "87654321-1",
+      "email": "docente2@mail.cl",
+      "isactive": true,
+      "asignaturas": [
+        "Java"
+      ]
+    },
+    {
+      "id": "1",
+      "username": "vivitasol",
+      "photoUrl": "",
+      "nombre": "viviana",
+      "apellido": "poblete",
+      "rut": "21775297-3",
+      "email": "vivitasol@duocuc.cl",
+      "password": "duoc12345",
+      "isactive": true
+    },
+    {
+      "id": 1,
+      "username": "ProfeAlex",
+      "photoUrl": "",
+      "nombre": "alex",
+      "apellido": "aguilera",
+      "rut": "15555454-4",
+      "email": "alex@duocuc.cl",
+      "password": "duoc1234",
+      "isactive": true
+    }
+  ]
+}
